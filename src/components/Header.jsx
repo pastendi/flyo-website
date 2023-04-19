@@ -16,7 +16,7 @@ const Header = ({ theme, toggleTheme }) => {
           border-2 border-gray-300  dark:border-gray-700 rounded-lg text-sm p-25'
           onClick={toggleTheme}
         >
-          {theme === 'dark' ? <BsFillMoonFill /> : <BsFillSunFill />}
+          {theme === 'dark' ? <BsFillSunFill /> : <BsFillMoonFill />}
         </button>
       </div>
     </div>
