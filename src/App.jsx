@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import useLocalStorage from 'use-local-storage'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Features from './components/Features'
 function App() {
   const [theme, setTheme] = useLocalStorage('theme', 'light')
   const toggleTheme = () => {
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Hero />
+      <Features />
     </div>
   )
 }
