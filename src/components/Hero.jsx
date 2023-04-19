@@ -9,7 +9,7 @@ const Hero = () => {
         <img
           src='https://www.aspiremarketing.group/hubfs/Website/19197004.png'
           alt=''
-          className='mx-auto'
+          className='mx-auto md:max-w-3xl'
         />
         <h1 className='max-w-4xl mx-auto mb-10 text-3xl font-bold leading-normal mt-14 md:text-4xl'>
           All your files in one secure location, accessible anywhere.
