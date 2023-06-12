@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <Hero />
+      <Hero theme={theme} />
       <Features />
       <Testimonials />
     </div>

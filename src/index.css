@@ -4,3 +4,15 @@
 * {
   scroll-behavior: smooth;
 }
+.light-logo {
+  background-image: url('./assets/images/LOGO-L~1.SVG');
+}
+.dark-logo {
+  background-image: url('./assets/images/LOGO-D~1.SVG');
+}
+.bg-curvy-light {
+  background-image: url('./assets/images/BG-CUR~1.SVG');
+}
+.bg-curvy-dark {
+  background-image: url('./assets/images/BG-CUR~2.SVG');
+}

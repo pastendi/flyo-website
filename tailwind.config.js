@@ -17,12 +17,6 @@ export default {
         sans: ['Raleway', 'sans-serif'],
         opensans: ['Open Sans', 'sans-serif'],
       },
-      backgroundImage: (theme) => ({
-        'logo-dark': "url('./src/assets/images/LOGO-D~1.SVG')",
-        'logo-light': "url('./src/assets/images/LOGO-L~1.SVG')",
-        'curvy-dark': "url('./src/assets/images/BG-CUR~1.SVG')",
-        'curvy-light': "url('./src/assets/images/BG-CUR~2.SVG')",
-      }),
     },
   },
   screens: {

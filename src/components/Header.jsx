@@ -3,7 +3,11 @@ import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
 const Header = ({ theme, toggleTheme }) => {
   return (
     <div className='container mx-auto mt-10 px-6 text-center h-40 md:h-20'>
-      <div className='bg-logo-light dark:bg-logo-dark bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10'></div>
+      <div
+        className={`${
+          theme === 'light' ? 'light-logo' : 'dark-logo'
+        } bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10`}
+      ></div>
       <div className='flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10'>
         <a href='#features' className='hover:text-accentCyan'>
           Features
