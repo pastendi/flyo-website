@@ -1,10 +1,10 @@
 import React from 'react'
-const Hero = (theme) => {
+const Hero = ({ theme }) => {
   return (
     <div
       id='hero'
       className={`${
-        theme ? 'bg-curvy-light' : 'bg-curvy-dark'
+        theme === 'dark' ? 'bg-curvy-light' : 'bg-curvy-dark'
       } bg-no-repeat bg-contain bg-bottom`}
     >
       <div className='container mx-auto px-6 text-center md:pt-20 pb-52'>
